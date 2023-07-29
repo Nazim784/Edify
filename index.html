@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edify Academic Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+ body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Set an appropriate background color for the entire page */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  animation: fadeIn 1s ease-in-out; /* Add fade-in animation to the title */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out; /* Add smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #ffc107; /* Change font color on hover */
+}
+
+main {
+  padding: 2rem;
+}
+
+.teacher {
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #fff; /* Set a background color for the teacher section */
+  animation: slideInFromLeft 1s ease-in-out; /* Add slide-in animation to the teacher section */
+}
+
+.teacher img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+</style>
+<body>
+  <header>
+    <h1>Edify Academic Care</h1>
+    <nav>
+      <ul>
+        <li><a href="#teachers">Teachers</a></li>
+        <li><a href="#classes">Coaching Classes</a></li>
+        <li><a href="#blogs">Blogs</a></li> <!-- Added the link to the Blogs section -->
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Teacher Profiles Section -->
+    <section id="teachers">
+      <h2>Our Teachers</h2>
+      <div class="teacher">
+        <img src="teacher1.jpg" alt="Teacher 1">
+        <h3>Teacher 1 Name</h3>
+        <p>Teacher 1 Bio and information.</p>
+      </div>
+      <div class="teacher">
+        <img src="teacher2.jpg" alt="Teacher 2">
+        <h3>Teacher 2 Name</h3>
+        <p>Teacher 2 Bio and information.</p>
+      </div>
+      <!-- Add more teacher profiles as needed -->
+    </section>
+
+    <!-- Coaching Classes Section -->
+    <section id="classes">
+      <h2>Coaching Classes</h2>
+      <div class="class">
+        <h3>Subject 1</h3>
+        <p>Information about subject 1 coaching class.</p>
+      </div>
+      <div class="class">
+        <h3>Subject 2</h3>
+        <p>Information about subject 2 coaching class.</p>
+      </div>
+      <!-- Add more coaching classes information as needed -->
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs">
+      <h2>Blogs</h2>
+      <!-- Blog Post 1 -->
+      <article class="blog">
+        <h3>Blog Post Title 1</h3>
+        <p>Date: [Publication Date]</p>
+        <p>Author: [Author Name]</p>
+        <p>Content of the blog post goes here...</p>
+      </article>
+      <!-- Blog Post 2 -->
+      <article class="blog">
+        <h3>Blog Post Title 2</h3>
+        <p>Date: [Publication Date]</p>
+        <p>Author: [Author Name]</p>
+        <p>Content of the blog post goes here...</p>
+      </article>
+      <!-- Add more blog posts as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Edify Academic Care. All rights reserved.</p>
+  </footer>
+</body>
+</html>
